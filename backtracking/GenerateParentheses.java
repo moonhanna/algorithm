@@ -4,7 +4,6 @@ import java.util.*;
 
 public class GenerateParentheses {
 
-	
 	public static void main(String[] args) {
 		GenerateParentheses a = new GenerateParentheses();
 		System.out.println(a.generateParenthesis_dfs(3));
