@@ -4,7 +4,7 @@ import sys
 n = int(input())
 a = list(map(int, input().split()))
 
-ave = round(sum(a)/n) # 소수 첫째자리 반올림
+ave = int(sum(a)/n) # 소수 첫째자리 반올림
 
 min=1000 # 큰 수
 
